@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
+* {
+  font-family: "Chakra Petch", sans-serif;
+  color: #ffffff;
+}
+body {
+  background-color: rgb(52, 52, 52);
+}
+.navbar {
+  background-color: rgb(52, 52, 52) !important;
+}
+
+.navbar a {
+  margin-left: 40px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #3cc8cd;
+}
+
+#banner {
+  background-color: rgb(52, 52, 52);
+}
+
+#banner h3 {
+  font-size: 40px;
+  font-weight: 300;
+  margin-top: 250px;
+}
+
+#banner p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#banner h1 {
+  color: #d9c50a;
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 100px;
+}
+
+#banner img {
+  width: 350px;
+  border-radius: 30px;
+}
+
+@media (max-width: 990px) {
+  .navbar a {
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    padding: 15px;
+    font-size: 25px;
+  }
+
+  #banner {
+    text-align: center;
+  }
+
+  #banner h3 {
+    font-size: 40px;
+    font-weight: 450;
+    margin-top: 0;
+  }
+
+  #banner img {
+    width: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

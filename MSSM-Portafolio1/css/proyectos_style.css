@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
+
+* {
+  font-family: "Chakra Petch", sans-serif;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+h1 {
+  text-align: center;
+  color: rgb(0, 86, 136);
+  font-size: 70px;
+  margin-bottom: 55px;
+}
+
+.navbar {
+  background-color: transparent !important;
+  margin-bottom: 45px;
+}
+
+.navbar a {
+  margin-left: 40px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #3cc8cd;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 5px;
+  background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(56, 56, 56) 100%);
+  color: #fff;
+  border: none;
+}
+
+.card-body {
+  margin: 10px;
+}
+
+.card h3 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #d9c50a;
+}
+
+.card p {
+  font-size: 25px;
+  font-weight: 250;
+  color: #3cc8cd;
+}
+
+.modal-body p {
+  text-align: justify;
+  margin-bottom: 15px;
+  color: #3cc8cd;
+}
+.modal-body {
+  background-color: #454545;
+}
+.modal-header {
+  background-color: #454545;
+}
+
+.btn {
+  background-color: #d9c50a;
+  border: none;
+  font-size: 20px;
+  color: rgb(46, 46, 46);
+}
+
+footer * {
+  background-color: rgb(62, 62, 63);
+  color: #d9c50a;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 250;
+}
+
+footer a {
+  font-size: 25px;
+  margin: 45px 20px 0 20px;
+}
+
+@media (max-width: 990px) {
+  .navbar a {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 15px;
+    font-size: 25px;
+  }
+
+  .card {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+}
